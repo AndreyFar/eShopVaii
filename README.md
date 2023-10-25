@@ -11,4 +11,6 @@
 
 ## Rozlozenie webu
 Rozlozenie webu je graficky znazornene v prilohe "rozlozenie_webu.pdf"
+
 ## Subory sa nachadzaju vo vetve -> master
+
