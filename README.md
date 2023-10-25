@@ -10,5 +10,5 @@
     - stranka, ktora obsahuje input elementy pre vyplnenie formularu
 
 ## Rozlozenie webu
-Rozlozenie webu je graficky znazornene v prilohe "rozlozenie_webu.pdf"
-  Subory sa nachadzaju vo vetve -> master
+Rozlozenie webu je graficky znazornene v prilohe "rozlozenie_webu.pdf"  
+Subory sa nachadzaju vo vetve -> master
