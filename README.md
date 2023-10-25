@@ -1,13 +1,13 @@
 # eShopVaii - custom Eshop pre oblecenie
 
-## Pages
+## Stranky
 
 1. Home
-    - Introduction page containing a menu at the bottom.
+    - uvodna stranka obsahujuca menu v spodnej casti
 2. Shop
-    - Main page, which includes a shopping cart, filters, and products.
+    - hlavna stranka, ktora zahrna kosik, filter a samotne produkty
 3. Contact
-    - Page with input elements for filling out a form.
+    - stranka, ktora obsahuje input elementy pre vyplnenie formularu
 
-## Layout
-The layout of the website is visually represented in the attached "rozlozenie_webu.pdf".
+## Rozlozenie webu
+Rozlozenie webu je graficky znazornene v prilohe "rozlozenie_webu.pdf"
