@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KookyMasta</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/unnamed.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/unnamed.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/unnamed.png">
+
+    <link rel="stylesheet" href="css/shopStyle.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="cart-bar">
+            <div class="cart-box">
+                <a href="./index.html"><div class="banner"></div></a>
+                <div class="cart">
+                    <h3>CART</h3>
+                    <p>0 items in cart</p>
+                    <button class="view-cart">view cart</button>
+                    <button class="shop-more">shop more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="filter">
+                <a href="" class="active">All</a>
+                <a href="">Tops</a>
+                <a href="">Pants</a>
+                <a href="">Jackets</a>
+                <a href="">Sneakers</a>
+                <a href="">Accessories</a>
+            </div>
+
+            <div class="collection">
+                <ul class="collection-wraper">
+                    <li class="product">A</li>
+                    <li class="product">B</li>
+                    <li class="product">C</li>
+                    <li class="product">D</li>
+                    <li class="product">E</li>
+                    <li class="product">F</li>
+                    <li class="product">G</li>
+                    <li class="product">H</li>
+                    <li class="product">I</li>
+                    <li class="product">J</li>
+                    <li class="product">K</li>
+                    <li class="product">L</li>
+                    <li class="product">M</li>
+                    <li class="product">N</li>
+                    <li class="product">O</li>
+                    <li class="product">P</li>
+                    <li class="product">R</li>
+                    <li class="product">s</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav-links">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li class="active"><a href="./shop.html">Shop</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Shipping</a></li>
+            <li><a href="">Sizing</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="">Legacy</a></li>
+        </ul>
+    </nav>
+    <button class="menu-btn">MENU</button>
+
+    <footer>
+        <div class="nickname-1">Kooky</div>
+        <div class="nickname-2">Masta</div>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector(".menu-btn");
+        const navBar = document.querySelector(".nav-links");
+
+        menuButton.addEventListener('click',() =>{
+            navBar.classList.toggle("mobile-menu")
+        })
+    </script>
+
+</body>
+</html>

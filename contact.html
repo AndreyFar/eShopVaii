@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KookyMasta</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/unnamed.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/unnamed.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/unnamed.png">
+
+    <link rel="stylesheet" href="css/contactStyle.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="cart-bar">
+            <div class="cart-box">
+                <a href="./index.html"><div class="banner"></div></a>
+                <div class="cart">
+                    <h3>CART</h3>
+                    <p>0 items in cart</p>
+                    <button class="view-cart">view cart</button>
+                    <button class="shop-more">shop more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="header">
+                <h2>contact</h2>
+            </div>
+
+            <div class="content">
+                <form method="post" accept-charset="UTF-8" class="isolate">
+                    <div class="contact_fields">
+                        <div class="field">
+                            <label class="field_label" for="ContactForm-name">Name</label>
+                            <input class="field_input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="">
+                        </div>
+                        <div class="field field-with-error">
+                            <label class="field_label" for="ContactForm-email">Email
+                                <span aria-hidden="true">*</span></label>
+                            <input autocomplete="email" type="email" id="ContactForm-email" class="field_input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="field_label" for="ContactForm-phone">Phone Number</label>
+
+                        <input type="tel" id="ContactForm-phone" class="field_input" autocomplete="tel" name="contact[Phone Number]" pattern="[0-9\-]*" value="">
+                    </div>
+
+                    <div class="field">
+                        <label class="form__label field_label" for="ContactForm-body">Message</label>
+                        <textarea rows="10" id="ContactForm-body" class="text-area field_input" name="contact[Message]"></textarea>
+                    </div>
+
+                    <button type="submit" class="button">Send</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="nav-links">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Shipping</a></li>
+            <li><a href="">Sizing</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
+            <li><a href="">Legacy</a></li>
+        </ul>
+    </nav>
+    <button class="menu-btn">MENU</button>
+
+    <footer>
+        <div class="nickname-1">Kooky</div>
+        <div class="nickname-2">Masta</div>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector(".menu-btn");
+        const navBar = document.querySelector(".nav-links");
+
+        menuButton.addEventListener('click',() =>{
+            navBar.classList.toggle("mobile-menu")
+        })
+    </script>
+
+</body>
+</html>
