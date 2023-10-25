@@ -11,6 +11,7 @@
 
 ## Rozlozenie webu
 Rozlozenie webu je graficky znazornene v prilohe "rozlozenie_webu.pdf"
+Rozlozenie je znazornene na hlavnej stranke, kde pouzivatel bude zotrvavat najdlhsiu dobu
 
 ## Subory sa nachadzaju vo vetve -> master
 
