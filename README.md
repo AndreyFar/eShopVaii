@@ -1,6 +1,4 @@
-# eShopVaii
-
-# Custom Eshop pre oblecenie
+# eShopVaii - custom Eshop pre oblecenie
 
 ## Pages
 
